@@ -76,6 +76,7 @@ h1{
 p{
     margin-block-end: 20px;
 }
-.video{
+video{
     border-radius: 5px;
+    width: 100%;
 }
