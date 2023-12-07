@@ -34,27 +34,40 @@
                 <li><a href="#">Seasonal pies</a></li>
             <li><a href="#">Promotions</a></li>
             </ul>
-            <div> 
+            <div>
                 <p><input type="search" placeholder="Search our store.." ></p>
             </div>
         </aside>
         <main>
             <h1>Welcome to Bethany's Pie Shop</h1>
             <p>Below is an embedded video:</p>
-            <!-- <iframe class="video" width="560" height="315" 
+            <!-- <iframe class="video" width="560" height="315"
              src="https://www.youtube.com/embed/5fPJuA8sCD8?si=Aw1v3KCTozDSokPI" title="YouTube video player" frameborder="0"
-             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
              allowfullscreen>
             </iframe> -->
             <!-- video -->
-        <video controls muted 
+        <!-- <video controls muted
         src="./media/baking.mp4" type="mp4" >
          Your browser does not support the video tag
+        </video> -->
+        <video controls >
+            <source src="./media/baking.webm" type="video/webm">
+            <source src="./media/baking.mp4" type="video/mp4">
+            <track src="./media/baking-es.vtt" srclang="es" kind="subtitles" label="Spanish" >
+            <track src="./media/baking.vtt" srclang="en" kind="subtitles" label="English">
+            Your browser does not support the video tag.
         </video>
         <!-- Audio -->
         <p>For Audio :</p>
-        <audio controls
+        <!-- <audio controls
          src="./media/breadsandcake.mp3" type="mp3">
+            Your browser does not support the audio tag.
+        </audio> -->
+        <audio controls>
+            <source src="./media/breadsandcake.ogg" type="audio/ogg">
+            <source src="./media/breadsandcake.wav" type="audio/wav">
+            <source src="./" type="">
             Your browser does not support the audio tag.
         </audio>
         <!-- control attribute makes media file visible on web page -->
